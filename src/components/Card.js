@@ -1,12 +1,13 @@
 import CardImage from "./CardImage";
 import CardInfo from "./CardInfo";
 import CardProfile from "./CardProfile";
+import "../styles/Card.css";
 
 const Card = () => {
     return (
         <section className="card">
             <CardImage />
-            <div>
+            <div className="card-info-section">
                 <CardInfo />
                 <CardProfile />
             </div>

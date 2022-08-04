@@ -1,12 +1,15 @@
 import DrawersImg from "../assets/drawers.jpg"
+import "../styles/CardImage.css";
 
 const CardImage = () => {
     return (
-        <img 
-            className="card-img"
-            src={DrawersImg}
-            alt="drawers"
-        />
+        <div className="card-img-container">
+            <img 
+                className="card-img-image"
+                src={DrawersImg}
+                alt="drawers"
+            />
+        </div>
     );
 }
 

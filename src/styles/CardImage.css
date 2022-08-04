@@ -1,0 +1,28 @@
+/* .card-img {
+
+} */
+@media only screen and (max-width: 375px) {
+    .card-img-container {
+        height: 224px;
+        overflow: hidden;
+    }
+    .card-img-image {
+        width: 340px;
+        height: auto;
+        border-radius: 12px 12px 0px 0px;
+    }
+}
+@media only screen and (min-width: 376px) {
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}

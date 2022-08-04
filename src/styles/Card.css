@@ -1,0 +1,31 @@
+.card {
+    border-radius: 12px;
+    border: 1px solid red;
+}
+@media only screen and (max-width: 375px) {
+    .card {
+        margin: 20px 0px;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .card-info-section {
+        width: 280px;
+    }
+}
+@media only screen and (min-width: 376px) {
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,75 @@
+.card-socials {
+    
+}
+.card-socials-share {
+    color: var(--grayish-blue);
+}
+.card-socials-btn {
+    border: none;
+    background-color: transparent;
+}
+.card-socials-btn:hover {
+    cursor: pointer;
+}
+.card-socials-toggle-btn {
+    border: none;
+    border-radius: 50%;
+    background-color: var(--light-grayish-blue);
+}
+.card-socials-toggle-btn:hover {
+    cursor: pointer;
+}
+.socials-btn-active {
+    background-color: var(--grayish-blue);
+}
+.socials-btn-img-active {
+    filter: brightness(0) invert(1);
+}
+
+@media only screen and (max-width: 375px) {
+    .card-socials {
+        margin: 20px 0px 0px -30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        width: 340px;
+        height: 70px;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .socials-active {
+        background-color: var(--very-dark-grayish-blue);
+    }
+    .card-socials-container {
+        display: flex;
+    }
+    .card-socials-share {
+        letter-spacing: 6px;
+        padding: 0px 16px 0px 30px;
+    }
+    .card-socials-btn {
+        margin: 0px 12px 0px 0px;
+    }
+
+    .card-socials-toggle-btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 38px;
+        height: 38px;
+    }
+}
+@media only screen and (min-width: 376px) {
+}
+@media only screen and (min-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
