@@ -1,9 +1,11 @@
+import DrawersImg from "../assets/drawers.jpg"
+
 const CardImage = () => {
     return (
         <img 
             className="card-img"
-            src={{}}
-            alt=""
+            src={DrawersImg}
+            alt="drawers"
         />
     );
 }
