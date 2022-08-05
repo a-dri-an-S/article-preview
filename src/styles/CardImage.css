@@ -13,9 +13,23 @@
     }
 }
 @media only screen and (min-width: 376px) {
+    .card-img-container {
+        height: 224px;
+        overflow: hidden;
+    }
+    .card-img-image {
+        width: 340px;
+        height: auto;
+        border-radius: 12px 12px 0px 0px;
+    }
 }
 @media only screen and (min-width: 600px) {
-
+    .card-img-container {
+        height: 372px;
+    }
+    .card-img-image {
+        width: 560px;
+    }
 }
 @media only screen and (min-width: 768px) {
 

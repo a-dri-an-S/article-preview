@@ -1,6 +1,6 @@
-.card-socials {
+/* .card-socials {
     
-}
+} */
 .card-socials-share {
     color: var(--grayish-blue);
 }
@@ -60,9 +60,64 @@
     }
 }
 @media only screen and (min-width: 376px) {
+    .card-socials {
+        margin: 20px 0px 0px -30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        width: 340px;
+        height: 70px;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .socials-active {
+        background-color: var(--very-dark-grayish-blue);
+    }
+    .card-socials-container {
+        display: flex;
+    }
+    .card-socials-share {
+        letter-spacing: 6px;
+        padding: 0px 16px 0px 30px;
+    }
+    .card-socials-btn {
+        margin: 0px 12px 0px 0px;
+    }
+    .card-socials-toggle-btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 38px;
+        height: 38px;
+    }
 }
 @media only screen and (min-width: 600px) {
-
+    .card-socials {
+        border: 1px solid red;
+        margin: 24px 0px 0px -50px;
+        width: 560px;
+        height: 100px;
+    }
+    .card-socials-share {
+        font-size: 18px;
+        letter-spacing: 6px;
+        padding: 0px 20px 0px 50px;
+    }
+    .card-socials-btn {
+        margin: 0px 20px 0px 0px;
+    }
+    .card-socials-icon {
+        width: 28px;
+    }
+    .card-socials-toggle-btn {
+        bottom: 26px;
+        right: 50px;
+        width: 48px;
+        height: 48px;
+    }
+    .card-socials-btn-img {
+        width: 22px;
+    }
 }
 @media only screen and (min-width: 768px) {
 
