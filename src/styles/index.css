@@ -9,6 +9,7 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--grayish-blue);
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
   -webkit-font-smoothing: antialiased;
