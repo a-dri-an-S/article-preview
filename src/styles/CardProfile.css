@@ -12,12 +12,6 @@
 .card-profile-avatar {
     border-radius: 50%;
 }
-/* .card-profile-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-} */
 .card-profile-name {
     margin: 0px;
     color: var(--very-dark-grayish-blue);
@@ -94,8 +88,38 @@
     }
 }
 @media only screen and (min-width: 992px) {
-
+    .card-profile {
+        margin: 28px 0px 0px 0px;
+    }
+    .card-profile-avatar {
+        width: 50px;
+    }
+    .card-profile-info-container {
+        margin: 0px 0px 0px 20px;
+    }
+    .card-profile-name {
+        font-size: 15px;
+        margin: 0px 0px 5px 0px;
+    }
+    .card-profile-date {
+        font-size: 14px;
+    }
 }
 @media only screen and (min-width: 1200px) {
-
+    .card-profile {
+        margin: 28px 0px 0px 0px;
+    }
+    .card-profile-avatar {
+        width: 64px;
+    }
+    .card-profile-info-container {
+        margin: 0px 0px 0px 20px;
+    }
+    .card-profile-name {
+        font-size: 18px;
+        margin: 0px 0px 5px 0px;
+    }
+    .card-profile-date {
+        font-size: 16px;
+    }
 }

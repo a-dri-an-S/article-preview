@@ -53,8 +53,26 @@
     }
 }
 @media only screen and (min-width: 992px) {
+    .card {
+        width: 950px;
+        height: 375px;
 
+    }
+    .card-info-section {
+        width: 450px;
+        height: 300px;
+        margin: 0px 0px 0px 46px;
+    }
 }
 @media only screen and (min-width: 1200px) {
+    .card {
+        width: 1190px;
+        height: 468px;
 
+    }
+    .card-info-section {
+        width: 562px;
+        height: 375px;
+        margin: 0px 0px 0px 58px;
+    }
 }
