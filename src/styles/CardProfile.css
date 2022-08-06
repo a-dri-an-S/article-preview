@@ -43,6 +43,9 @@
     }
 }
 @media only screen and (min-width: 376px) {
+    .card-profile {
+        margin: 0px 0px 20px 0px;
+    }
     .card-profile-avatar {
         width: 50px;
     }
@@ -73,7 +76,22 @@
     }
 }
 @media only screen and (min-width: 768px) {
-
+    .card-profile {
+        margin: 0px;
+    }
+    .card-profile-avatar {
+        width: 40px;
+    }
+    .card-profile-info-container {
+        margin: 0px 0px 0px 16px;
+    }
+    .card-profile-name {
+        font-size: 12px;
+        margin: 0px 0px 5px 0px;
+    }
+    .card-profile-date {
+        font-size: 12px;
+    }
 }
 @media only screen and (min-width: 992px) {
 

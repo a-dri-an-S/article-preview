@@ -42,6 +42,7 @@ const CardSocials = () => {
                             alt="pinterest-icon" 
                         />
                     </button>
+                    <div className="card-socials-container-triangle"/>
                 </div>
                     :
                 null
